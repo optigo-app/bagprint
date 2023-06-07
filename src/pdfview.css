@@ -1,0 +1,67 @@
+.page{
+    flex-direction: row;
+    width: 100%;
+    display: block
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container{
+    max-width: 824px;
+    width: 100%;
+    margin: 0 auto 30px auto;
+    padding: 0 15px;
+}
+
+.heading{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 4px solid #dee2e6;
+    margin-bottom: 16px;
+}
+
+.heading_box{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 50%
+}
+
+.company_name{
+    font-weight: 700;
+    font-size: 16px
+}
+
+.para{
+    font-size: 10px;
+    padding-bottom: 3px
+}
+
+.invoice{
+    border: 2px solid #dee2e6;
+    padding: 8px;
+    display: flex; 
+    justify-content: space-between
+}
+
+.invoice_heading {
+    display: flex;
+    justify-content: space-between
+}
+
+.invoice_content{
+    border-left: 2px solid #dee2e6;
+    border-right: 2px solid #dee2e6;
+    border-bottom: 2px solid #dee2e6;
+    display: flex; 
+    justify-content: space-between
+}
+
+.invoice_address{
+    width: 50%;
+    display: flex;
+    flex-direction: column
+}
